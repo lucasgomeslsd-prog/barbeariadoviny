@@ -1,0 +1,64 @@
+{
+  "entities": {
+    "ShopConfig": {
+      "title": "Shop Configuration",
+      "description": "Store settings, theme, security policies, and custom texts",
+      "type": "object",
+      "properties": {
+        "tenantName": { "type": "string" },
+        "appName": { "type": "string" },
+        "whatsappNumber": { "type": "string" },
+        "adminEmail": { "type": "string" },
+        "adminPassword": { "type": "string" },
+        "adminPin": { "type": "string" }
+      }
+    },
+    "Appointments": {
+      "title": "Appointments",
+      "description": "Client booking records",
+      "type": "object",
+      "properties": {
+        "clientName": { "type": "string" },
+        "clientPhone": { "type": "string" },
+        "barberId": { "type": "string" },
+        "serviceId": { "type": "string" },
+        "date": { "type": "string" },
+        "timeSlot": { "type": "string" },
+        "status": { "type": "string" },
+        "servicePrice": { "type": "number" }
+      }
+    },
+    "Barbers": {
+      "title": "Barbers",
+      "description": "Barbershop staff members",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "nickname": { "type": "string" },
+        "role": { "type": "string" },
+        "status": { "type": "string" }
+      }
+    },
+    "Services": {
+      "title": "Services",
+      "description": "Haircut and care services offered",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "price": { "type": "number" },
+        "durationMinutes": { "type": "number" },
+        "category": { "type": "string" }
+      }
+    },
+    "Clients": {
+      "title": "Clients",
+      "description": "Registered clients profiles",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "totalAppointments": { "type": "number" }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "name": "Administrador Dom Pedro",
+      "email": "contato@barbeariadompedro.com.br",
+      "phone": "(11) 98765-4321",
+      "username": "admin",
+      "passwordHash": "9870b205a78d74e90a97ad7401ac8b005375b6d73bd230de28a2b2206e7568915dab4c4f3d37321838eb31ac7f9823883a2b2fc656322fb02f39a62a428795b6",
+      "passwordSalt": "ad04c2c187921782bcb8e3aefd945a5c",
+      "createdAt": "2026-09-14T20:54:52.010Z",
+      "status": "ativo"
+    }
+  ],
+  "clients": [],
+  "professionals": [],
+  "services": [],
+  "appointments": [],
+  "payments": [],
+  "blockedSlots": [],
+  "timeOffs": [],
+  "notifications": [],
+  "config": {
+    "name": "Barbearia do Viny",
+    "tagline": "Cortes Clássicos, Barba, Navalha & Estilo",
+    "phone": "00000000",
+    "address": "R. Pref. Osmário Gomes, 22 - Antônio Celestino Lins",
+    "logo": "/logo_viny.jpg",
+    "workingHours": "Segunda a Sábado, das 08:00 às 18:00",
+    "openHour": 8,
+    "closeHour": 18,
+    "closedDays": [
+      0
+    ],
+    "lunchBreak": [
+      "12:00",
+      "13:00"
+    ],
+    "pixKey": "11987654321",
+    "pixKeyType": "Celular",
+    "pixReceiverName": "Barbearia do Viny",
+    "pixCity": "São Paulo",
+    "blockedSlots": [],
+    "slotInterval": 30,
+    "weeklySchedule": [
+      {
+        "dayOfWeek": 1,
+        "name": "Segunda",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 2,
+        "name": "Terça",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 3,
+        "name": "Quarta",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 4,
+        "name": "Quinta",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 5,
+        "name": "Sexta",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 6,
+        "name": "Sábado",
+        "active": true,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": true,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      },
+      {
+        "dayOfWeek": 0,
+        "name": "Domingo",
+        "active": false,
+        "openTime": "08:00",
+        "closeTime": "18:00",
+        "hasBreak": false,
+        "breakStart": "12:00",
+        "breakEnd": "13:00"
+      }
+    ],
+    "blockedPeriods": [],
+    "id": "cfg-default"
+  }
+}

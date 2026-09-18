@@ -1,6 +1,6 @@
 {
-  "name": "Barbearia do Viny",
-  "description": "Sistema SaaS Premium de Agendamento, Fila de Espera e Gestão para Barbearia do Viny",
+  "name": "Agendamento de Barbearia",
+  "description": "Sistema de agendamento e administração simplificada para barbearia com PIX e WhatsApp.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
